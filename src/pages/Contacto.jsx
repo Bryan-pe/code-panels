@@ -1,8 +1,10 @@
-import { Typography } from "@mui/material"
+import Navbar from "../components/Navbar"
 
 function Contacto() {
     return (
-        <Typography>Pagina contacto</Typography>
+        <>
+            <Navbar />
+        </>
     )
 }
 export default Contacto

@@ -1,8 +1,10 @@
-import { Typography } from "@mui/material"
+import Navbar from "../components/Navbar"
 
 function Proyectos() {
     return (
-        <Typography>Pagina proyectos</Typography>
+        <>
+            <Navbar />
+        </>
     )
 }
 export default Proyectos

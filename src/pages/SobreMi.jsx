@@ -1,8 +1,10 @@
-import { Typography } from "@mui/material"
+import Navbar from "../components/Navbar"
 
 function SobreMi() {
     return (
-        <Typography>Pagina sobre mi</Typography>
+        <>
+            <Navbar />
+        </>
     )
 }
 export default SobreMi

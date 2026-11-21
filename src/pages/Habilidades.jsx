@@ -1,8 +1,10 @@
-import { Typography } from "@mui/material"
+import Navbar from "../components/Navbar"
 
 function Habilidades() {
     return (
-        <Typography>Pagina habilidades</Typography>
+        <>
+            <Navbar />
+        </>
     )
 }
 export default Habilidades

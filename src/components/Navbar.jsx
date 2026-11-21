@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Navbar(){
     return(
-        <AppBar position="static" elevation={0} sx={{backgroundColor:'#8e23cc', color: '#fff'}}>
+        <AppBar position="static" elevation={0} sx={{backgroundColor:'#8a66b6', color: '#fff'}}>
             <Container maxWidth='xl'>
                 <Toolbar disableGutters>
                     <Box sx={{display: "flex", alignItems: 'center', justifyContent: 'space-between', flexGrow: 1, gap: 1}}>{/* logo */}
@@ -19,7 +19,7 @@ function Navbar(){
                         <Button component={Link} to="/Habilidades" sx={{color: '#fff'}}>Habilidades</Button>
                         <Button component={Link} to="/Contacto" sx={{color: '#fff'}}>Contacto</Button>
                         {/*test*/}
-                        <Button component={Link} to="/TEST" sx={{color: '#fff'}}>TEST</Button>
+                        {/*<Button component={Link} to="/TEST" sx={{color: '#fff'}}>TEST</Button>*/}
                     </Box>
                 </Toolbar>
             </Container>
