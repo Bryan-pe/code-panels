@@ -7,29 +7,33 @@ import PersonOutlinedIcon from '@mui/icons-material/PersonOutlined';
 function Navbar(){
     return(
         <Box sx={{padding:'2% 2% 0 2%'}}>
-            <Container maxWidth='xl' sx={{backgroundImage:"url('/banner.png')", backgroundSize:'cover', backgroundPosition:'center', width:'100%', height:'auto', padding:0, border:'solid 1px black'}}>
-                <Box sx={{justifyContent:'center', alignItems:'center'}}>
-                    <Typography sx={{color:'#3e2e66', fontWeight:'bold'}}>
+            <Container maxWidth='xl' sx={{border:'solid 1px black', justifyContent:'space-evenly', display:'flex'}}>
+                <Box sx={{justifyContent:'center', alignItems:'center', border:'solid 1px black', maxWidth:'40%', padding:'1%'}}>
+                    <Typography sx={{color:'#3e2e66', fontWeight:'bold', fontSize:'1.8rem'}}>
                         <PersonOutlinedIcon sx={{color:'#8a66b6'}}/>
-                        
+                        Sobre mí
                     </Typography>
-                    <Typography sx={{color:'#3e2e66'}}></Typography>
+                    <Typography sx={{color:'#3e2e66'}}>
+                        Soy un estudiante apasionado por la tecnologia, que disfruta aprender nuevas herramientas, 
+                            resolver problemas y crear aplicaciones utiles. Me interesa especialmente el desarrollo 
+                            de software con enfoque practico, funcional y con buen diseño.
+                    </Typography>
                 </Box>
-                <Box>
-                    <Box sx={{display:"flex", justifyContent:'center', alignItems:'center'}}>
+                <Box sx={{display:"flex", justifyContent:'center', alignItems:'center', border:'solid 1px black', maxWidth:'40%', padding:'1%'}}>
+                    <Box sx={{display:"flex", flexDirection:'column', justifyContent:'center', alignItems:'center', border:'solid 1px black'}}>
                         <SchoolOutlinedIcon sx={{color:'#8a66b6'}}/>
-                        <Typography sx={{color:'#3e2e66', fontWeight:'bold'}}></Typography>
-                        <Typography sx={{color:'#3e2e66'}}></Typography>
+                        <Typography sx={{color:'#3e2e66', fontWeight:'bold'}}>asdasd</Typography>
+                        <Typography sx={{color:'#3e2e66'}}>asdasd</Typography>
                     </Box>
-                    <Box sx={{display:"flex", justifyContent:'center', alignItems:'center'}}>
+                    <Box sx={{display:"flex", flexDirection:'column', justifyContent:'center', alignItems:'center', border:'solid 1px black'}}>
                         <CodeOutlinedIcon sx={{color:'#8a66b6'}}/>
-                        <Typography sx={{color:'#3e2e66', fontWeight:'bold'}}></Typography>
-                        <Typography sx={{color:'#3e2e66'}}></Typography>
+                        <Typography sx={{color:'#3e2e66', fontWeight:'bold'}}>asdasda</Typography>
+                        <Typography sx={{color:'#3e2e66'}}>asdasd</Typography>
                     </Box>
-                    <Box sx={{display:"flex", justifyContent:'center', alignItems:'center'}}>
+                    <Box sx={{display:"flex", flexDirection:'column', justifyContent:'center', alignItems:'center', border:'solid 1px black'}}>
                         <TrendingUpOutlinedIcon sx={{color:'#8a66b6'}}/>
-                        <Typography sx={{color:'#3e2e66', fontWeight:'bold'}}></Typography>
-                        <Typography sx={{color:'#3e2e66'}}></Typography>
+                        <Typography sx={{color:'#3e2e66', fontWeight:'bold'}}>asdasd</Typography>
+                        <Typography sx={{color:'#3e2e66'}}>asdasda</Typography>
                     </Box>
                 </Box>
             </Container>
