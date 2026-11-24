@@ -1,20 +1,23 @@
 import {Box, Button, Typography, Container} from "@mui/material"
+import SchoolOutlinedIcon from '@mui/icons-material/SchoolOutlined';
+import CodeOutlinedIcon from '@mui/icons-material/CodeOutlined';
+import TrendingUpOutlinedIcon from '@mui/icons-material/TrendingUpOutlined';
 
 function Navbar(){
     return(
-        <Box>
+        <Box sx={{padding:'2% 2% 0 2%'}}>
             <Container maxWidth='xl' sx={{backgroundImage:"url('/banner.png')", backgroundSize:'cover', backgroundPosition:'center', width:'100%', height:'auto', padding:0, border:'solid 1px black'}}>
-                <Box sx={{padding: '6%', maxWidth:'50%', color:'#3e2e66'}}>
-                    <Typography sx={{fontSize:'2.2rem', marginBottom:'5px', fontWeight:'bold', letterSpacing:1}}>
-                        Hola, soy <Box component="span" sx={{color:'#b450d3'}}>Bryan</Box>
-                    </Typography>
-                    <Typography sx={{marginBottom:'10px'}}>
-                        Estudiante de desarrollo de software, apasionado por la tecnologia, la creacion de aplicaciones web y el aprendizaje constante.
-                    </Typography>
-                    <Box sx={{display:'flex', gap:2}}>
-                        <Button sx={{backgroundColor:'#8a66b6', color:'white', borderRadius:4, "&:hover":{backgroundColor:'#6550a0'}}}>Ver proyectos</Button>
-                        <Button sx={{backgroundColor:'white', color:'black', border:'solid 1px', borderRadius:4, "&:hover":{backgroundColor:'#ebebeb'}}}>Contactame</Button>
+                <Box>
+                    <Typography></Typography>
+                    <Typography></Typography>
+                </Box>
+                <Box>
+                    <Box sx={{display:"flex", justifyContent:'center', alignItems:'center'}}>
+                        <SchoolOutlinedIcon sx={{color:'#8a66b6'}}/>
+                        <Typography></Typography>
+                        <Typography></Typography>
                     </Box>
+                    
                 </Box>
             </Container>
         </Box>
