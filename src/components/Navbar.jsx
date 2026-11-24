@@ -24,7 +24,7 @@ function Navbar(){
                 </Toolbar>
             </Container>
         </AppBar>
-    )
+    ) 
 }
 
 export default Navbar
