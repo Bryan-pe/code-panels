@@ -3,7 +3,7 @@ import MailOutlinedIcon from '@mui/icons-material/MailOutlined';
 
 function Navbar(){
     return(
-        <Box sx={{padding:'2% 2% 0 2%'}}>
+        <Box sx={{padding:'1% 1% 0 1%'}}>
             <Container maxWidth='xl' sx={{backgroundImage:"url('/banner.png')", backgroundSize:'cover', backgroundPosition:'center', width:'100%', height:'auto', padding:0, border:'solid 1px black'}}>
                 <Box sx={{padding: '6%', maxWidth:'50%', color:'#3e2e66'}}>
                     <Typography sx={{fontSize:'2.2rem', marginBottom:'5px', fontWeight:'bold', letterSpacing:1}}>
