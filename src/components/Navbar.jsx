@@ -13,11 +13,11 @@ function Navbar(){
                     </Box>
                     {/* navegacion */}
                     <Box sx={{display: 'flex', alignItems: 'center', gap: 1}}>
-                        <Button component={Link} to="/" sx={{color: '#fff'}}>Inicio</Button>
-                        <Button component={Link} to="/SobreMi" sx={{color: '#fff'}}>Sobre mi</Button>
-                        <Button component={Link} to="/Proyectos" sx={{color: '#fff'}}>Proyectos</Button>
-                        <Button component={Link} to="/Habilidades" sx={{color: '#fff'}}>Habilidades</Button>
-                        <Button component={Link} to="/Contacto" sx={{color: '#fff'}}>Contacto</Button>
+                        <Button component={Link} to="/" sx={{color: '#fff', borderRadius:4, "&:hover":{backgroundColor:'#6550a0'}}}>Inicio</Button>
+                        <Button component={Link} to="/SobreMi" sx={{color: '#fff', borderRadius:4, "&:hover":{backgroundColor:'#6550a0'}}}>Sobre mi</Button>
+                        <Button component={Link} to="/Proyectos" sx={{color: '#fff', borderRadius:4, "&:hover":{backgroundColor:'#6550a0'}}}>Proyectos</Button>
+                        <Button component={Link} to="/Habilidades" sx={{color: '#fff', borderRadius:4, "&:hover":{backgroundColor:'#6550a0'}}}>Habilidades</Button>
+                        <Button component={Link} to="/Contacto" sx={{color: '#fff', borderRadius:4, "&:hover":{backgroundColor:'#6550a0'}}}>Contacto</Button>
                         {/*test*/}
                         {/*<Button component={Link} to="/TEST" sx={{color: '#fff'}}>TEST</Button>*/}
                     </Box>
