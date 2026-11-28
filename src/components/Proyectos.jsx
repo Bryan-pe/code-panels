@@ -1,4 +1,4 @@
-import {Box, Typography, Container, Grid} from "@mui/material"
+import {Box, Typography, Container, Grid, Chip, Stack} from "@mui/material"
 import LaptopOutlinedIcon from '@mui/icons-material/LaptopOutlined';
 
 function Proyectos(){
@@ -25,7 +25,6 @@ function Proyectos(){
                         </Grid>
                     </Grid>
                 </Box>
-                
             </Container>
         </Box>
     )
