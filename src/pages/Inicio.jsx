@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar"
 import Hero from "../components/Hero"
 import SobreMi from "../components/SobreMi"
+import Proyectos from "../components/Proyectos"
 
 function Inicio() {
     return (
@@ -8,6 +9,7 @@ function Inicio() {
             <Navbar />
             <Hero />
             <SobreMi />
+            <Proyectos />
         </>
     )
 }

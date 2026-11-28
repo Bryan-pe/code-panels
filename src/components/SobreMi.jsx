@@ -1,12 +1,11 @@
-import {Box, Button, Typography, Container} from "@mui/material"
+import {Box, Typography, Container} from "@mui/material"
 import SchoolOutlinedIcon from '@mui/icons-material/SchoolOutlined';
 import CodeOutlinedIcon from '@mui/icons-material/CodeOutlined';
 import TrendingUpOutlinedIcon from '@mui/icons-material/TrendingUpOutlined';
 import PersonOutlinedIcon from '@mui/icons-material/PersonOutlined';
 
-function Navbar(){
+function SobreMi(){
     return(
-        
         <Box sx={{padding:'2% 2% 0 2%', display:'flex'}}>
             <Container maxWidth='xl' disableGutters sx={{display:'flex', justifyContent:'space-between', padding:0}}>
                 <Box sx={{justifyContent:'center', alignItems:'center', border:'solid 1px black', maxWidth:'40%', width:'100%', padding:'1%'}}>
@@ -42,4 +41,4 @@ function Navbar(){
     )
 }
 
-export default Navbar
+export default SobreMi
