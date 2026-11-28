@@ -14,7 +14,7 @@ function Navbar(){
                     </Typography>
                     <Box sx={{display:'flex', gap:2}}>
                         <Button sx={{backgroundColor:'#8a66b6', color:'white', borderRadius:4, "&:hover":{backgroundColor:'#6550a0'}}}>Ver proyectos</Button>
-                        <Button sx={{backgroundColor:'white', color:'black', border:'solid 1px', borderRadius:4, "&:hover":{backgroundColor:'#ebebeb'}}}><MailOutlinedIcon sx={{color:'#6550a0'}}/> Contactame</Button>
+                        <Button sx={{backgroundColor:'#fcf5ff', color:'black', border:'solid 1px', borderRadius:4, "&:hover":{backgroundColor:'#ebebeb'}}}><MailOutlinedIcon sx={{color:'#6550a0'}}/> Contactame</Button>
                     </Box>
                 </Box>
             </Container>
