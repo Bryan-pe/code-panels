@@ -6,12 +6,12 @@ import PersonOutlinedIcon from '@mui/icons-material/PersonOutlined';
 
 function SobreMi(){
     return(
-        <Box sx={{padding:'2% 2% 0 2%', display:'flex'}}>
+        <Box sx={{padding:'2% 2% 0 2%'}}>
             <Container maxWidth='xl' disableGutters sx={{display:'flex', justifyContent:'space-between', padding:0}}>
                 <Box sx={{justifyContent:'center', alignItems:'center', border:'solid 1px black', maxWidth:'40%', width:'100%', padding:'1%'}}>
                     <Typography sx={{color:'#3e2e66', fontWeight:'bold', fontSize:'1.8rem'}}>
                         <PersonOutlinedIcon sx={{color:'#8a66b6'}}/>
-                        Sobre mí
+                        {' '}Sobre mí
                     </Typography>
                     <Typography sx={{color:'#3e2e66'}}>
                         Soy un estudiante apasionado por la tecnologia, que disfruta aprender nuevas herramientas, 
